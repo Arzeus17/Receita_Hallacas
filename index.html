@@ -4,45 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap" rel="stylesheet">
     <title>Hallacas</title>
 </head>
-<body style="background-color:rgba(15, 2, 2, 0.919)">
+<body>
+    <header>
     <img src="img/41.jpg" width="800px" height="200px" alt="Hallacas"/></br>
-    <h1 style="color:orange"><strong>Receita de Hallacas Venezuelanas</strong></h1>
-    <p style="color:rgb(22, 158, 47)"><em><strong>A melhor Hallaca é feita pela minha mai!!!</strong></em></p>
+    <nav class="Menu">
+        <h1><strong>Receita de Hallacas Venezuelanas:</strong></h1>
+        <div class="container">
+          <ul>
+            <li><a href="#inicio"> Início </a></li>
+            <li><a href="#ingredientes"> Ingredientes </a></li>
+            <li><a href="#preparaçao"> Preparaçao </a></li>
+          </ul>
+        </div>
+      </nav>
+    </br>
+    <h3><em><strong>A melhor Hallaca é feita pela minha mãe!!!</strong></em></h3>
+    </header></br>
 
-        <p style="color:whitesmoke">Na Venezuela, além do presépio, da árvore e do Papai Noel, um dos grandes simbolos do Natal é a Hallaca!, uma massa de milho envolta em folhas de bananeira, parecendo uma pamonha, recheada com um guisado a base varios ingredientes. Mais do que a comida em si, o ritual do preparo é o mais marcante nesse prato. A tradiçao é que toda a familia se una para prepará-lo, cada um sendo responsável por uma parte do processo.</p>
-        <img src="img/25.jpg" width="400px" height="300px" alt="Hallaca para degustar" img-align="center"/></br>
-        <figcaption style="color:whitesmoke">A Hallaca! nosso prato típico do natal.</figcaption></br>
-    <nav>
-        <h3 style="color:rgb(22, 158, 47)">Conteúdo:</h3>
-            <ul>
-                <li><a href="#ingredientes">INGREDIENTES</a></li>
-                <li><a href="#ingr-massa">Ingredientes da Massa</a></li>
-                <li><a href="#ingr-recheio">Ingredientes do Recheio</a></li>
-                <li><a href="#preparaçao">PREPARAÇAO</a></li>
-                <li><a href="#prep-massa">Preparaçao da Massa</a></li>
-                <li><a href="#prep-recheio">Preparaçao do Recheio</a></li>
-            </ul>
-    </nav></br>
-
-    <p style="color:whitesmoke"><strong>Uma receita da culinária venezuelana: a Hallaca. A iguaria é envolvida em folha de bananeira e deixa a mesa mais colorida. Confira como fazer!</strong></p>
+    <main>
+        <h2 id="inicio">As Hallacas:</h2>
+        <div class="flex">
+            <div>
+                <img src="img/25.jpg" width="390px" height="187px" alt="Hallaca para degustar"/></br>
+                <figcaption style="font-size: 10px">A Hallaca! nosso prato típico do natal.</figcaption>
+            </div>
+            <div>
+                <p>Na Venezuela, além do presépio, da árvore e do Papai Noel, um dos grandes simbolos do Natal é a Hallaca!, uma massa de milho envolta em folhas de bananeira, parecendo uma pamonha, recheada com um guisado a base varios ingredientes.</p>
+            </br>
+                <p>Mais do que a comida em si, o ritual do preparo é o mais marcante nesse prato. A tradiçao é que toda a familia se una para prepará-lo, cada um sendo responsável por uma parte do processo.</p></br>
+        </div>
     
-    <div>
-        <h2 id="ingredientes" style="color:orange">INGREDIENTES:</h2>
-        <h3 id="ingr-massa" style="color:rgb(22, 158, 47)">Ingredientes da Massa</h3>
-        <ul style="color:orange">
-            <li>1 quilo de farinha de milho, preferentemente marca PAN.*</li>
+        </div>
+    </hr>
+    <section>
+        <div>
+            <span style="color:whitesmoke"><strong>Uma receita da culinária venezuelana: a Hallaca. A iguaria é envolvida em folha de bananeira e deixa a mesa mais colorida. Confira como fazer!</strong></span>
+        </div>
+    </section>
+    </main>
+</br>
+</hr>
+
+    <section>
+        <h2 id="ingredientes">Ingredientes:</h2>
+        <h4>Ingredientes da Massa:</h4>
+    <div class="flex2">
+        <div>
+        <ul style="color:whitesmoke">
+            <li>1 quilo de farinha de milho, preferentemente marca PAN.</li>
             <li>1 litro de caldo de galinha.</li>
             <li>sal ao gosto.</li>
             <li>1 colher de sopa de colorau.</li>
             <li>1 colher de açafrão diluído em meia xícara de óleo vegetal.</li>
         </ul>
-            <img src="img/39.jpg" width="180px" height="250px" alt="Ingredientes da Massa"/></br>
-            <figcaption style="color:whitesmoke">Ingredientes da Massa.</figcaption></br>
-        
-            <h3 id="ingr-recheio" style="color:rgb(22, 158, 47)">Ingredientes do Recheio</h3>
-        <ul style="color:orange">
+        </div>
+        <div>
+            <img src="img/39.jpg" width="120px" height="180px" alt="Ingredientes da Massa"/></br>
+        </div>
+        </div></br>
+    </section>
+
+    <section>
+            <h4>Ingredientes do Recheio:</h4>
+            <div class="flex3">
+                <div>
+        <ul>
             <li>1 quilo de carne bovina picadas em cubinhos pequenos.</li>
             <li>500 gramas de carne suína picada em cubos pequenos.</li>
             <li>2 cebolas grandes picadas.</li>
@@ -61,22 +92,41 @@
             <li>azeitonas a gosto.</li>
             <li>uvas-passas pretas a gosto.</li>
         </ul>
-        <img src="img/05.jpg" width="400px" height="300px" alt="Ingredientes do Recheio"/></br>
-        <figcaption style="color:whitesmoke">Ingredientes do Recheio.</figcaption></br>
-    </div>
-    <div>
-        <h2 id="preparaçao" style="color:orange">PREPARAÇAO:</h2>
-        <h3 id="prep-massa" style="color:rgb(22, 158, 47)">Preparaçao da Massa</h3>
-        <ol style="color:orange">
+        </div>
+        <div>
+        <img src="img/05.jpg" width="360px" height="300px" alt="Ingredientes do Recheio"/></br>
+        </div>
+        </div>
+    </section>
+    </br>
+
+    </hr>
+    <section>
+        <h2 id="preparaçao">Preparaçao:</h2>
+        <h4>Preparaçao da Massa:</h4>
+        <div class="flex4">
+            <div>
+        <ol style="list-style-type: decimal">
             <li>Em uma tigela, coloque a farinha de milho, o caldo de galinha, o sal, o colorau, o açafrão.</li>
             <li>Misture bem até formar uma massa homogênea.</li>
             <li>Pegue porções da massa, enrole e reserve.</li>
         </ol>
-        <img src="img/42.jpg" width="400px" height="300px" alt="Massa preparada"/></br>
-        <figcaption style="color:whitesmoke">Bolas de Massa preparadas.</figcaption></br>
-        
-        <h3 id="prep-recheio" style="color:rgb(22, 158, 47)">Preparaçao do Recheio</h3>
-        <ol style="color:orange">
+        </div>
+    </section>
+    <section>
+        <div class="bolinhas">
+        <img src="img/42.jpg" width="300px" height="200px" alt="Massa preparada"/></br>
+        <figcaption style="color:whitesmoke">Bolinhas de Massa preparadas.</figcaption></br>
+        </div>
+        </div>
+    </section>
+</br>
+
+    <section>
+        <h4>Preparaçao do Recheio:</h4>
+        <div class="flex5">
+            <div>
+        <ol style="list-style-type: decimal">
             <li>Em uma tigela, coloque a carne bovina, a carne suína, o cominho, a pimenta-do-reino moída, o colorau e misture bem com mãos.</li>
             <li>Coloque a carne em uma panela em fogo alto e sele de todos os lados.</li>
             <li>Transfira a carne selada para um refratário e reserve.</li>
@@ -86,16 +136,27 @@
             <li>Dobre a folha de bananeira como se fosse uma pamonha, amarre com barbante e cozinhe em uma panela com água fervente em fogo médio por 40 minutos.</li>
             <li>Apague o fogo, retire da água, retire o barbante com cuidado e sirva.</li>
         </ol>
-        <img src="img/24.jpg" width="400px" height="300px" alt="Armado da Hallaca"/></br>
+        </div></br>
+        </section>
+        <section>
+        <div class="montagem">
+        <img src="img/24.jpg" width="400px" height="300px" alt="Armado da Hallaca" align-items="center"/></br>
         <figcaption style="color:whitesmoke">Montagem da Hallaca.</figcaption></br>
+        </div>
     </div>
-    <p style="color:rgb(22, 158, 47)"><strong>... E agora Hallaca pronta para degustar!</strong></p>
+</section>
+    <section>
+        <div class="deguste">
+    <p style="color:rgb(81, 232, 109)"><strong>... E agora, Hallaca pronta para degustar!</strong></p></br>
     <img src="img/32.jpg" width="400px" height="300px" alt="Resultado Final"/></br>
+    </div>
+    </section>
+</br>
+</hr>
 
-
-    <nav>
+    <div>
         <p style="color:whitesmoke">Confira a receita no siguente video:</p>
-        <video src="https://www.youtube.com/watch?v=ivxSDYT0Erc" controls alt="video desenvolvendo a receita das Hallacas"></video>
-    </nav>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ivxSDYT0Erc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
 </body>
 </html>

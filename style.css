@@ -1,0 +1,209 @@
+/* Configurações globais */
+
+* {
+    padding: 16;
+    margin: 0;
+    font-family: 'Monserrat', sans-serif;
+  }
+
+  body {
+    background-color: rgba(15, 2, 2, 0.919);
+  }
+
+  a {
+    text-decoration: inherit;
+    color: inherit;
+  }
+  
+  h1 {
+    color: #ffb300;
+    text-align:left;
+    font-size: 26px;
+    Font-family: 'Monserrat', 'Black', sans-serif;
+  }
+
+  h2 {
+    color:#ffb300;
+    text-align:start;
+    font-size: 20px;
+  }
+
+  h3 {
+    color:rgb(81, 232, 109);
+    text-align:center;
+    font-size: 22px;
+    align-items:center;
+  }
+
+  h4 {
+    color:rgb(81, 232, 109);
+    font-size: 18px;
+  }
+
+  p {
+    text-align: justify;
+  }
+  
+  
+
+  /* Estilos do menu superior */
+.Menu {
+    width: 800px;
+    height: 50px;
+    background-color: rgba(15, 2, 2, 0.968);
+    padding: 10px 30px;
+    box-sizing: border-box;
+    display: flex;
+    align-items:right;
+  }
+  
+   .Menu .container {
+    display: flex;
+    justify-content:right;
+    align-items:center;
+  }
+  
+  .Menu .container {
+    height: 30px;
+  }
+  
+  .Menu .container ul {
+    display: flex;
+    color: whitesmoke;
+    list-style: none;
+  }
+  
+  .Menu .container ul li {
+    padding: 0 10px;
+  }
+  
+  .Menu .container ul li:hover {
+    text-decoration: underline 3px solid;
+    text-decoration-color: #4E9231;
+    opacity: 0.8;
+  }
+
+  /* inicio */
+.flex{
+    display: flex;
+    align-items:flex-start;
+    margin-top: 20px;
+   }
+
+.flex div img {
+    border-radius: 0px;
+    align-items:center;
+  }
+
+.flex div {
+    width: 397px;
+    background-color: rgb(230, 225, 225);
+    margin-left: 3px;
+    padding: 3px;
+    box-sizing: border-box;
+ }
+section {
+    margin-top: 20px;
+    text-align: justify;
+    width:800px;
+}
+ span {
+    margin-top: 20px;
+    text-align: justify;
+ }
+
+ ul {
+    color:whitesmoke;
+    list-style:inside;
+ }
+
+ ol {
+    color:whitesmoke;
+    list-style-type:decimal;
+ }
+
+ /* ingredientes */
+.flex2 {
+    display: flex;
+    align-items:flex-start;
+    margin-top: 20px;
+   }
+
+.flex2 div img {
+    border-radius: 0px;
+    align-items:center;
+  }
+
+.flex2 div {
+    width: 700px;
+    margin-left: 3px;
+    padding: 3px;
+    box-sizing: border-box;
+ }
+ .flex2 div ul li {
+    padding: 0 5px;
+  }
+
+ .flex3 {
+    display: flex;
+    align-items:flex-start;
+    margin-top: 20px;
+   }
+
+.flex3 div img {
+    border-radius: 0px;
+    align-items:center;
+  }
+
+.flex3 div {
+    width: 397px;
+    margin-left: 3px;
+    padding: 3px;
+    box-sizing: border-box;
+ }
+
+ /* preparaçao */
+.flex4 {
+    margin-top: 20px;
+   }
+
+.flex4 div {
+    width: 800px;
+    margin-left: 3px;
+    padding: 3px;
+    box-sizing: border-box;
+ }
+
+ .bolinhas {
+    margin-top: 20px;
+    border-radius: 0px;
+    text-align:center;
+  }
+
+ .flex5 {
+    margin-top: 20px;
+   }
+
+.flex5 div {
+    width: 800px;
+    margin-left: 3px;
+    padding: 3px;
+    box-sizing: border-box;
+ }
+
+ 
+.montagem {
+    margin-top: 20px;
+    border-radius: 0px;
+    text-align:center;
+  }
+  .deguste p {
+    margin-top: 20px;
+    text-align:center;
+  }
+
+  .deguste {
+    margin-top: 20px;
+    border-radius: 0px;
+    text-align:center;
+  }
